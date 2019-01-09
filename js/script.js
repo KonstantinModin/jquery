@@ -1,5 +1,7 @@
-'use strict';
 $(document).ready(function () {
+  
+    $('a[href="#sheldure"], .main_btna, .main_btn, .close').on('click', showModal);
+    
     function showModal() {
         $('.overlay').animate({
             opacity: 'toggle'
@@ -8,10 +10,5 @@ $(document).ready(function () {
         $('.modal').animate({
             height: 'toggle'
         }, 1000);
-    }
-    $('#schedule').on('click', showModal);
-    $('.main_btna').on('click', showModal);
-    $('.main_btn').on('click', showModal);
-    $('#close').on('click', showModal);
-
+    }    
 });
