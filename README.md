@@ -5,9 +5,9 @@ Some JQuery usage examples.
 
 ## Authors
 
-Konstantin Modin
-https://github.com/KonstantinModin
-konstantin.v.modin@gmail.com
+* Konstantin Modin
+* https://github.com/KonstantinModin
+* konstantin.v.modin@gmail.com
 
 
 ## Version History
